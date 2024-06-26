@@ -1,3 +1,4 @@
+![](https://avatars.githubusercontent.com/u/98090080?s=400&u=0344c4acf88fbd9d2429ef1b8ba8cb0f2c354b75&v=4)  
 **Alexandra Zaporenko**  
 ========================
 e-mail: aleks.shilova@gmail.com  
