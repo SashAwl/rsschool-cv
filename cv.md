@@ -9,7 +9,6 @@ github: SashAwl
 
 **Professional Summary**  
 -----------------------
------------------------
 Aspiring front-end developer skilled in HTML, CSS, and JavaScript basics. Currently focused on mastering the Vue framework and TypeScript. Eager to bring my knowledge to real-world projects and collaborate with experienced developers to deliver high-quality web applications.  
 
 **Skills**  
