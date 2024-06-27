@@ -1,6 +1,6 @@
 ![](https://avatars.githubusercontent.com/u/98090080?s=400&u=0344c4acf88fbd9d2429ef1b8ba8cb0f2c354b75&v=4)  
 **Alexandra Zaporenko**  
-========================
+---------------------
 e-mail: aleks.shilova@gmail.com  
 phone: +7(952)473-09-15  
 tg: @alekszko  
@@ -8,6 +8,7 @@ discord: sashawl_83619
 github: SashAwl  
 
 **Professional Summary**  
+-----------------------
 -----------------------
 Aspiring front-end developer skilled in HTML, CSS, and JavaScript basics. Currently focused on mastering the Vue framework and TypeScript. Eager to bring my knowledge to real-world projects and collaborate with experienced developers to deliver high-quality web applications.  
 
