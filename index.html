@@ -129,22 +129,15 @@
     <code class="code-box">
     <code class="keyword">function </code><code class="function">capitalizeFirstLetters </code><code>(string) {</code>
         <code class="keyword">const </code><code>sliceString = string.</code><code class="function">slice</code><code>(1,)</code>
-        <code class="keyword">return </code><code>sliceString.</code><code class="function">split</code><code>("").</code><code class="function">reduce</code><code>((strResult, item, index) => </code>
-            <code>strResult + `</code><code class="template-string">${</code><code>sliceString[index - 1] === <code class="string">" "</code> ? item.</code><code class="function">toUpperCase</code><code>() : item</code><code class="template-string">}</code><code>`,</code>
+        <code class="keyword">return </code><code>sliceString.</code><code class="function">split</code><code>(&quot;&quot;).</code><code class="function">reduce</code><code>((strResult, item, index) => </code>
+            <code>strResult + &prime;</code><code class="template-string">${</code><code>sliceString[index - 1] === <code class="string">&quot; &quot;</code> ? item.</code><code class="function">toUpperCase</code><code>() : item</code><code class="template-string">}</code><code>&prime;,</code>
             <code>string[0].</code><code class="function">toUpperCase</code><code>())</code>
     <code>}</code>
     
-    <code class="function">capitalizeFirstLetter</code>(<code class="string">"make it easy"</code>);<code class="comment">  // 'Make It Easy'</code></code>
+    <code class="function">capitalizeFirstLetter</code>(<code class="string">&quot;make it easy&quot;</code>);<code class="comment">  // &prime;Make It Easy&prime;</code></code>
     </pre>
                             </div>
                         </details>
-                        <script>
-                            function cap(str) {
-                                return str.split(" ").map((item, index) => {
-                                    item[0].toUpperCase() + item.slice(1,)
-                                }).join(" ")
-                            }
-                        </script>
                     </section>
                     <section class="projects">
                         <a id="projects"></a>
