@@ -160,6 +160,16 @@ footer {
 
 footer .menu {
     padding: 20px 0;
+    align-items: center;
+}
+
+footer .menu a {
+    color: #353743;
+    text-align: center;
+}
+
+footer .menu a:last-child {
+    width: 70px;
 }
 
 .github-link {
