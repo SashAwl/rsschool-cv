@@ -1,240 +1,266 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
-    padding-left: calc(50% - 580px);
-    padding-right: calc(50% - 580px);
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px);
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    list-style-type: none;
-    background-color: #bba05b;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  list-style-type: none;
+  background-color: #bba05b;
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    font-weight: 600;
-    transition: transform 0.1s ease;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: transform 0.1s ease;
 }
 
 .menu li:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .box {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .wrapper-left,
 .wrapper-right {
-    padding: 33px;
+  padding: 33px;
 }
 
 .box-left {
-    background-color: #353743;
+  background-color: #353743;
 }
 
 .name {
-    background-color: rgba(206, 192, 133, 0.44);
-    padding: 46px 34px 37px;
+  background-color: rgba(206, 192, 133, 0.44);
+  padding: 46px 34px 37px;
 }
 
-section~section {
-    margin-top: 40px;
+section ~ section {
+  margin-top: 40px;
 }
 
 p,
 ul {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .line-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .line {
-    width: 32px;
-    height: 2px;
-    margin-right: 5px;
-    background-color: #DFAE4F;
+  width: 32px;
+  height: 2px;
+  margin-right: 5px;
+  background-color: #dfae4f;
 }
 
 .photo img {
-    width: 100%;
+  width: 100%;
 }
 
 .heading-basic {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    font-size: 20px;
-    line-height: 92%;
-    text-transform: uppercase;
-    color: #1e2027;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  line-height: 92%;
+  text-transform: uppercase;
+  color: #1e2027;
 }
 
 .heading-basic-mini {
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 136%;
-    text-transform: uppercase;
-    color: #dfae4f;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #dfae4f;
 }
 
 .heading-name {
-    margin-top: 0px;
-    font-size: 37px;
-    line-height: 114%;
-    color: #353743;
+  margin-top: 0px;
+  font-size: 37px;
+  line-height: 114%;
+  color: #353743;
 }
 
 .heading-color-left {
-    color: #f2f1ed;
+  color: #f2f1ed;
 }
 
 .profession-color {
-    color: #353743;
-    margin: 10px 0;
+  color: #353743;
+  margin: 10px 0;
 }
 
 .box-left-text {
-    letter-spacing: -0.01em;
-    color: #f2f1ed;
+  letter-spacing: -0.01em;
+  color: #f2f1ed;
 }
 
 .text-basic {
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 167%;
-    letter-spacing: -0.01em;
-    color: #666d79;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  letter-spacing: -0.01em;
+  color: #666d79;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .pass-to-link {
-    width: 15px;
-    margin-left: 5px;
+  width: 15px;
+  margin-left: 5px;
 }
 
 .light-link path {
-    fill: #f2f1ed;
+  fill: #f2f1ed;
 }
 
 .dark-link {
-    fill: #353743;
+  fill: #353743;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-img {
+  background-image: url(./images/shelter.png);
+  width: 100%;
+}
+
+.project-link {
+  line-height: 0;
+  text-decoration: none;
+  color: initial;
+}
+
+.additional-inform {
+  margin-top: 40px;
 }
 
 footer {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 footer .menu {
-    padding: 20px 0;
-    align-items: center;
+  padding: 20px 0;
+  align-items: center;
 }
 
 footer .menu a {
-    color: #353743;
-    text-align: center;
+  color: #353743;
+  text-align: center;
 }
 
 footer .menu a:last-child {
-    width: 94px;
+  width: 94px;
 }
 
 .github-link {
-    width: 50px;
+  width: 50px;
 }
 
 .logo-rsschool {
-    height: 50px;
+  height: 50px;
 }
 
 /* Code formatting */
 
 summary {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .scroll-code {
-    background-color: #e7e5e3;
-    border-radius: 5px;
-    padding: 0 15px;
-    overflow: auto;
-    position: relative;
-    margin: 0;
+  background-color: #e7e5e3;
+  border-radius: 5px;
+  padding: 0 15px;
+  overflow: auto;
+  position: relative;
+  margin: 0;
 }
 
 .code-form {
-    display: flex;
+  display: flex;
 }
 
 .code-box {
-    padding: 0;
-    margin: 0;
-    display: block;
-    white-space: pre;
+  padding: 0;
+  margin: 0;
+  display: block;
+  white-space: pre;
 }
 
 .numbers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 15px 2px;
-    background-color: #c4c5c7;
-    ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px 2px;
+  background-color: #c4c5c7;
 }
 
 .numbers span:first-child {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .keyword {
-    color: #d73a49;
+  color: #d73a49;
 }
 
 .string {
-    color: rgb(10, 148, 10);
+  color: rgb(10, 148, 10);
 }
 
 .template-string {
-    color: #e36209;
+  color: #e36209;
 }
 
 .function {
-    color: #4340e7;
+  color: #4340e7;
 }
 
 .comment {
-    color: #666d79;
+  color: #666d79;
 }
