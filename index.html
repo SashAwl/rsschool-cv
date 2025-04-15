@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="box-wrapper center">
+        <header>
+            <nav class="">
+                <ul class="menu text-basic">
+                    <li><a href="#about"> About me more</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="box text-basic">
+            <div class="box-left box-left-text">
+                <div class="photo"><img src="images/photo.JPG" alt="photo"></div>
+                <div class="wrapper-left">
+                    <section class="contacts" id="contacts">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic heading-color-left">Contacts</h2>
+                        </div>
+                        <ul>
+                            <li>e-mail: aleks.shilova@gmail.com</li>
+                            <li>phone: +7(952)473-09-15</li>
+                            <li>tg: @alekszko</li>
+                            <li>discord: sashawl_83619</li>
+                            <li><a class="link" href="https://github.com/SashAwl">
+                                    GitHub
+                                    <svg class="pass-to-link light-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </section>
+                    <section class="education" id="education">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic heading-color-left">Education</h2>
+                        </div>
+                        <p>Minin Nizhny Novgorod State Pedagogical University, faculty of Mathematics, Computer Science,
+                            Physics
+                        </p>
+                        <h3 class="heading-basic-mini">Self-paced online courses:</h3>
+                        <ul class="courses">
+                            <li>Front-End Web Development (Coursera)</li>
+                            <li>Front-End Web Development (GeekBrains)</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="name">
+                    <div class="line-box">
+                        <div class="line"></div>
+                        <h2 class="heading-basic-mini profession-color">Front-End Developer</h2>
+                    </div>
+                    <h1 class="heading-basic heading-name">Alexandra Zaporenko</h1>
+                </div>
+                <div class="wrapper-right">
+                    <section class="about-me">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic">About me</h2>
+                        </div>
+                        <p>Aspiring front-end developer with basic HTML, CSS and JavaScript skills. I am actively
+                            learning
+                            and teaching others. Currently focused on mastering the Vue framework and the TypeScript
+                            programming language. I want to apply my knowledge in real projects and collaborate with
+                            experienced developers to create high-quality web applications.</p>
+                    </section>
+                    <section class="skills" id="skills">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic">Skills</h2>
+                        </div>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 / SASS / BEM</li>
+                            <li>JavaScript</li>
+                            <li>Vue2, VueX, Vue Router</li>
+                            <li>Python</li>
+                            <li>Webpack</li>
+                            <li>ESLint / Prettier</li>
+                            <li>Git/GitHub</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </section>
+                    <section class="code" id="code">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic">Code example</h2>
+                        </div>
+                        <details>
+                            <summary>JavaScript code</summary>
+                            <div class="code-form">
+                                <div class="numbers">
+                                    <span>0</span>
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                    <span>6</span>
+                                    <span>7</span>
+                                    <span>8</span>
+                                </div>
+                                <pre class="scroll-code">
+    <code class="code-box">
+    <code class="keyword">function </code><code class="function">capitalizeFirstLetters </code><code>(string) {</code>
+        <code class="keyword">const </code><code>sliceString = string.</code><code class="function">slice</code><code>(1,)</code>
+        <code class="keyword">return </code><code>sliceString.</code><code class="function">split</code><code>(&quot;&quot;).</code><code class="function">reduce</code><code>((strResult, item, index) =&gt;</code>
+            <code>strResult + &prime;</code><code class="template-string">${</code><code>sliceString[index - 1] === <code class="string">&quot; &quot;</code> ? item.</code><code class="function">toUpperCase</code><code>() : item</code><code class="template-string">}</code><code>&prime;,</code>
+            <code>string[0].</code><code class="function">toUpperCase</code><code>())</code>
+    <code>}</code>
+
+    <code class="function">capitalizeFirstLetter</code>(<code class="string">&quot;make it easy&quot;</code>);<code class="comment">  // &prime;Make It Easy&prime;</code></code>
+    </pre>
+                            </div>
+                        </details>
+                    </section>
+                    <section class="projects" id="projects">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic">Projects</h2>
+                        </div>
+                        <div class="projects-wrapper">
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/shelter/" class="project-link" target="_blank"><h3 class="heading-basic-mini">Landing Page "Shelter"</h3></a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/shelter/" class="project-link" target="_blank"><img class="project-img" src="./images/shelter.png" alt="shelter"></a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFEPRESCHOOL2024Q2/tree/shelter" target="_blank">GitHub Repository<svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/christmas-shop/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Landing Page "Shristmas shop"</h3>
+                                </a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/christmas-shop/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/shristamas-shop.png" alt="christmas-shop">
+                                </a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFE2024Q4/tree/christmas-shop" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/image-gallery/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Image gallery "Capture beauty"</h3>
+                                </a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/image-gallery/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/image-gallery.png" alt="image-gallery">
+                                </a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFEPRESCHOOL2024Q2/tree/image-gallery" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/audio-player/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Audio player</h3>
+                                </a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFEPRESCHOOL2024Q2/audio-player/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/audio-player.png" alt="audio-player">
+                                </a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFEPRESCHOOL2024Q2/tree/audio-player" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/simon-says/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Game "Simon says"</h3>
+                                </a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/simon-says/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/simon-says.png" alt="game-simon-says">
+                                </a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFE2024Q4/tree/simon-says" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/nonograms/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Game "Nonograms"</h3>
+                                </a>
+                                <a href="https://rolling-scopes-school.github.io/sashawl-JSFE2024Q4/nonograms/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/game-nonograms.png" alt="game-nonograms">
+                                </a>
+                                <a class="link" href="https://github.com/rolling-scopes-school/sashawl-JSFE2024Q4/tree/nonograms" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                            <div class="project-item">
+                                <a href="https://sashawl.github.io/interior_design/" class="project-link" target="_blank">
+                                    <h3 class="heading-basic-mini">Landing Page "Design" in Vue</h3>
+                                </a>
+                                <a href="https://sashawl.github.io/interior_design/" class="project-link" target="_blank">
+                                    <img class="project-img" src="./images/interior-design.png" alt="interior-design">
+                                </a>
+                                <a class="link" href="https://github.com/SashAwl/interior_design" target="_blank">
+                                    GitHub Repository
+                                    <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    <section class="additional-inform" id="about">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <h2 class="heading-basic">Additional Information:</h2>
+                        </div>
+                        <h3 class="heading-basic-mini">Languages</h3>
+                        <p>English (Elementary, but actively improving my language skills through continuous study and
+                            practice)</p>
+                        <h3 class="heading-basic-mini">Hobby</h3>
+                        <p>Private tutor(teacher) of fundamental Computer Sciense, Python programming.
+                            How my students characterize me can be seen
+                            <a href="https://profi.ru/profile/ZaporenkoAS" class="link" target="_blank">
+                                here
+                                <svg class="pass-to-link dark-link" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+                            </a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="center">
+        <div class="menu">
+            <a href="https://github.com/SashAwl" class="github-link" target="_blank">
+                GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                </svg>
+            </a>
+            <h2 class="heading-basic-mini profession-color">2024</h2>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                RS School
+                <img class="logo-rsschool" src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="RS School">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
