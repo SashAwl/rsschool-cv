@@ -166,9 +166,30 @@ ul {
   gap: 10px;
 }
 
+.project-item-wrapper {
+  position: relative;
+}
+
 .project-img {
   background-image: url(./images/shelter.png);
   width: 100%;
+}
+
+.in-dev {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 20%;
+  box-sizing: border-box;
+  background-color: #bbb3a86e;
+}
+
+.project-item-wrapper:hover .in-dev {
+  display: block;
 }
 
 .project-link {
