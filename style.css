@@ -160,6 +160,13 @@ ul {
   gap: 20px;
 }
 
+@media (max-width: 767px) {
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-item {
   display: flex;
   flex-direction: column;
